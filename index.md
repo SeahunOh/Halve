@@ -16,5 +16,5 @@ http://shpik.tistory.com
 
 
 ### Career
- ~2017-02  Inha Univ.
+ ~2017-02  Inha Univ.<br>
  2017-01~  Cyberone in South Korea (Security Researcher)
