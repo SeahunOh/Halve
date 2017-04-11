@@ -1,10 +1,20 @@
 ---
 layout: home
 ---
-# About Theme
+# shpik
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+안녕하세요.
+한국에 서식중인 shpik입니다.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+여행, 개인적인 연구, CTF풀이 등 포스팅 할 예정입니다.
+> 그 외 게임 관련도 올라옵니다 :)
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+
+## Blog
+http://shpik.tistory.com
+
+
+
+## Career
+* ~2017-02  Inha Univ.
+* 2017-01~  Cyberone in South Korea (Security Researcher)
