@@ -11,7 +11,7 @@ tag:
 
 ## Description
 
-> Can you read my mind?
+> Can you read my mind?<br>
 > Challenge running at [https://mindreader.web.ctfcompetition.com/][1]
 
 ## Exploit
@@ -31,10 +31,8 @@ tag:
 </body>
 </html>
 ```
-`https://mindreader.web.ctfcompetition.com/?f=` 와 같은 방법으로 파일 내부를 볼 수 있는 것 같다.
-
-단순 LFI 문제처럼 보인다.
-
+`https://mindreader.web.ctfcompetition.com/?f=` 와 같은 방법으로 파일 내부를 볼 수 있는 것 같다.<br>
+단순 LFI 문제처럼 보인다.<br>
 시험삼아 `/etc/passwd`를 호출해보았다.
 
 ```bash
@@ -64,8 +62,7 @@ systemd-resolve:x:102:105:systemd Resolver,,,:/run/systemd/resolve:/bin/false
 systemd-bus-proxy:x:103:106:systemd Bus Proxy,,,:/run/systemd:/bin/false
 ```
 
-정상적으로 `/etc/passwd`가 호출됨을 알 수 있다.
-
+정상적으로 `/etc/passwd`가 호출됨을 알 수 있다.<br>
 하지만 어느 폴더에 어떤 파일이 존재하는지 모르기에 `/proc/self/environ`을 열어보기로 했다.
 
 ```bash
@@ -85,8 +82,7 @@ parallels@ubuntu:~$ ls -al /dev/fd/../environ
 -r-------- 1 parallels parallels 0 Jun 19 15:24 /dev/fd/../environ
 ```
 
-위와 같은 방법으로 `environ`을 열 수 있다.
-
+위와 같은 방법으로 `environ`을 열 수 있다.<br>
 `/dev/fd/../environ`을 서버에 요청해보자.
 
 ```bash
