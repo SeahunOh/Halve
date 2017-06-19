@@ -12,7 +12,6 @@ tag:
 ## Description
 
 > Can you read my mind?
-
 > Challenge running at [https://mindreader.web.ctfcompetition.com/][1]
 
 ## Exploit
