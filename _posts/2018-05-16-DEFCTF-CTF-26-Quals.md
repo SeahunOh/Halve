@@ -34,7 +34,7 @@ tags:
 
 # Writeup
 
-## You Already Know
+## [ You Already Know ]
 
 > You already know the answer here.
 >
@@ -51,7 +51,7 @@ tags:
 
 FLAG : OOO{Sometimes, the answer is just staring you in the face. We have all been there}
 
-## PHP Eval White-List
+## [ PHP Eval White-List ]
 
 > PHP was dangerous, so we've fixed it! 
 >
@@ -65,7 +65,7 @@ FLAG : OOO{Sometimes, the answer is just staring you in the face. We have all be
 
 FLAG : OOO{Fortunately_php_has_some_rock_solid_defense_in_depth_mecanisms,_so-everything_is_fine.}
 
-## exzendtential-crisis
+## [ exzendtential-crisis ]
 
  로그인 후 글을 작성하고 작성한 글에 접근하면 다음의 페이지에 접근이 가능하다.
 
