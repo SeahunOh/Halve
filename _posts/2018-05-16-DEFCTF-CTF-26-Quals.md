@@ -61,7 +61,7 @@ FLAG : OOO{Sometimes, the answer is just staring you in the face. We have all be
 
 음... 뭔가 화이트리스트로 PHP Eval을 이용해 플래그를 얻는 문제인 것 같다.
 
-근데 이유는 모르겠지만 `ehco system('../flag');` 만으로 플래그가 나와버렸다.
+근데 이유는 모르겠지만 `echo system('../flag');` 만으로 플래그가 나와버렸다.
 
 FLAG : OOO{Fortunately_php_has_some_rock_solid_defense_in_depth_mecanisms,_so-everything_is_fine.}
 
