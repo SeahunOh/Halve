@@ -229,10 +229,10 @@ LABEL_13:
 }
 ```
 
-위 코드에서 취약점이 발생하는 아래의 코드에서 callback함수인 `check_hacking_attempt`에서 발생한다.
+위 코드에서 취약점은 `j_get_user_id` 함수의 3번째 인자인 callback함수 `check_hacking_attempt`에서 발생한다.
 
 ```c
- v4 = j_get_user_id((int64)vars0, (int64)vars20, (__int64)check_hacking_attempt); Php::Value::operator=(&unk_207100, 0LL);
+v4 = j_get_user_id((int64)vars0, (int64)vars20, (__int64)check_hacking_attempt); 
 ```
 
  `j_get_user_id` 를 타고 들어가면 callback함수를 `&v4, username`으로 호출하는 것을 확인할 수 있다.
