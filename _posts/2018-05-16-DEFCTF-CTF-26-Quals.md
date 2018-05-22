@@ -1,6 +1,6 @@
 ---
 title: DEFCON CTF 26 Quals
-description: DEFCON CTF 26 Quals.<br>You Already Know(warming up), PHP Eval White-List(web+rev), exzendtential-crisis(web+pwn) writeup<br>written by korean. @C.G.K.S (Rank 15)
+description: DEFCON CTF 26 Quals Challenges writeup
 categories:
  - writeup
 tags:

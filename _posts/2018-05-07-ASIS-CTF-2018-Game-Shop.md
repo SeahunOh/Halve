@@ -1,6 +1,6 @@
 ---
 title: ASIS CTF 2018 - Game-Shop
-description: ASIS CTF 2018 Web Challenges
+description: ASIS CTF 2018 Web Challenge
 categories:
  - writeup
 tags:
