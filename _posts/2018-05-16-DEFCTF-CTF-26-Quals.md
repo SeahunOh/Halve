@@ -11,7 +11,6 @@ tags:
  - json
  - eval
  - overflow
-
 ---
 
 > DEFCON CTF 26 Quals.
