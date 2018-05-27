@@ -66,9 +66,8 @@ $ docker rm wl # remove docker
 
 - docker run \[options\] \[image path\] \[process\]
   - 도커 서비스 등록 및 실행
-
-​		-p : port forwarding,
-		--name : docker의 이름 설정 
+    - -p : port forwarding,
+    - --name : docker의 이름 설정 
 
 - docker ps
   - 등록된 도커 서비스 목록
