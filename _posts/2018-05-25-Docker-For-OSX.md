@@ -19,8 +19,9 @@ tags:
 
 > 명령어 작동 안할 시 sudo(root 권한)으로 진행
 
-1. [Docker 홈페이지](https://store.docker.com/editions/community/docker-ce-desktop-mac)에 접속하여 dmg 다운로드 및 설치
-2. `docker version` 을 입력하여 설치완료 확인
+##### 1. [Docker 홈페이지](https://store.docker.com/editions/community/docker-ce-desktop-mac)에 접속하여 dmg 다운로드 및 설치
+
+##### 2. `docker version` 을 입력하여 설치완료 확인
 
 ```
 $ docker version
@@ -45,7 +46,7 @@ Server:
   Experimental: true
 ```
 
-3. git이나 타 사이트에서 받은 이미를 이용하여 docker를 통해 가상화 (e.g. [CVE-2018-2628](https://nvd.nist.gov/vuln/detail/CVE-2018-2628) Dockerfile)
+##### 3. git이나 타 사이트에서 받은 이미를 이용하여 docker를 통해 가상화 (e.g. [CVE-2018-2628](https://nvd.nist.gov/vuln/detail/CVE-2018-2628) Dockerfile)
 
 ```
 $ docker pull zhiqzhao/ubuntu_weblogic1036_domain
@@ -55,12 +56,21 @@ $ docker attach wl
 root@7f81d516676b:~/Oracle/Middleware#
 ```
 
-4. 가상화 종료 및 제거
+##### 4. 가상화 종료 및 제거
 
 ```
 $ docker stop wl # service stop
 $ docker rm wl # remove docker
 ```
+
+## Interact
+
+- Docker -> Host(OSX)
+  - docker.for.mac.localhost
+  - e.g. nc docker.for.mac.localhost 8080
+- Host(OSX) -> Docker
+  - 127.0.0.1
+  - e.g. nc 127.0.0.1 7001 (본인이 설정한 포트)
 
 ## Command
 
