@@ -235,7 +235,7 @@ for a in range(a_min,a_max):
 
 
 
-FLAG : \_N3x7-v3R51ON-h45-AnTI-4NTi-ant1-D3bUg\_
+FLAG : CTF{\_N3x7-v3R51ON-h45-AnTI-4NTi-ant1-D3bUg\_}
 
 
 
