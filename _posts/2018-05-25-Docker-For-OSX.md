@@ -65,25 +65,38 @@ $ docker rm wl # remove docker
 
 ## Interact
 
-- Docker -> Host(OSX)
+- **Docker -> Host(OSX)**
   - docker.for.mac.localhost
-  - e.g. nc docker.for.mac.localhost 8080
-- Host(OSX) -> Docker
+  - e.g. 
+    - nc docker.for.mac.localhost 8080
+- **Host(OSX) -> Docker**
   - 127.0.0.1
-  - e.g. nc 127.0.0.1 7001 (본인이 설정한 포트)
+  - e.g. 
+    - nc 127.0.0.1 7001 (본인이 설정한 포트)
 
 ## Command
 
-- docker run \[options\] \[image path\] \[process\]
-  - 도커 서비스 등록 및 실행
+- docker run \[options\] \[image name\] \[process\]
+  - 도커 서비스 **등록** 및 **실행**
     - -p : port forwarding,
     - --name : docker의 이름 설정 
-
+    - -i : foreground mode (attch시 화면 출력)
+    - -d : background mode (shell exit해도 계속 실행) 
+    - -t : detached mode
+  - e.g.
+    - docker run -t -d -p 80:10101  --name ctf-main ctf-flatform:0.9 "/bin/bash"
 - docker ps
-  - 등록된 도커 서비스 목록
-- docker stop [name]
-  - 서비스 중인 도커 중지
-- docker start [name]
-  -  서비스가 중지된 도커 실행
-- docker rm [name]
-  - 도커 서비스 목록에서 제거
+  - 등록된 도커 서비스 **목록**
+    - -a : all list
+- docker stop *[container name]*
+  - 서비스 중인 도커 **중지**
+- docker start *[container name]*
+  -  서비스가 중지된 도커 **실행**
+- docker rm *[container name]*
+  - 도커 서비스 목록에서 **제거**
+- docker commit *\[option\] \[container name\] \[image name\]:\[tag\]* 
+  - 도커 **커밋**, image로 **저장**
+    - -m : 로그 저장
+  - e.g.
+    -  docker commit -m "apache2+php5.6+mysql" WebSetting webbase_php5:0.1
+- 
