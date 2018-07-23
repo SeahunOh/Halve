@@ -104,7 +104,7 @@ if 'value1' in arguments and 'value2' in arguments and 'op' in arguments:
 
 처음에는`value1 = a&op = +'&value2 = >FLAG#` 를 넣어 대소 비교의 참, 거짓의 유무로 FLAG를 추출하였으나, 플래그에 필터링된 문자열이 섞여있어 더이상 진행이 불가능하였다.
 
-**MeePwnCTF{python3.66666666666666_(**
+**MeePwnCTF{python3.66666666666666_\(**
 
 하지만 플래그의 앞 부분을 보았을 때, python 3.6을 사용하는 것을 알 수 있었다.
 
@@ -142,7 +142,7 @@ while True:
 
 #### 플래그
 
-FLAG : MeePwnCTF{python3.66666666666666_([_((you_passed_this?]]]]]])}
+FLAG : MeePwnCTF{python3.66666666666666\_\(\[\_((you\_passed\_this?]]]]]])}
 
 
 
@@ -193,7 +193,7 @@ while True:
 
 #### 플래그
 
-MeePwnCTF{python3.6[_strikes_backkkkkkkkkkkk)}
+MeePwnCTF{python3.6[\_strikes\_backkkkkkkkkkkk)}
 
 
 
@@ -285,9 +285,9 @@ $$
 기본적인 아이디어는 다음과 같다.
 
 우선 e가 3일때 RSA를 통해 문자열을 암호화 하는 것은 다음과 같다.
-$$
-c=m^3 modN
-$$
+
+$ c=m^3 modN $
+
 위 식은 다음과 같이 표현이 가능하다.
 $$
 c = N*x + m^3
