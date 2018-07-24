@@ -135,7 +135,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  resume: about
+  about: resume
   categories: th
   schedule: calendar
   tags: tags
