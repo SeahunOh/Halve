@@ -6,7 +6,7 @@
 # Site
 title: shpik's world
 subtitle: 
-description: eagle-jump
+description: エロイム エッサイム 我は求め訴えたり
 author: shpik
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -121,6 +121,7 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
+  resume: /resume/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
