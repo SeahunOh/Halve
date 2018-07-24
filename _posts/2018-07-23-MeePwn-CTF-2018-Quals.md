@@ -26,7 +26,7 @@ tags:
 - [White Snow, Black Shadow](#white-snow-black-shadow) - misc / file header
 - [Welcome](#Welcome) - misc / sanity check
 - [bazik](#bazik) - crypto / brute force(?)
-- [esor](#esor) - crypto / simple decrypt rsa
+- [esor](#esor) - crypto / simple decrypt aes
 - [grandline](#grandline) - web / rpo / xss
 
 ## pycalx
