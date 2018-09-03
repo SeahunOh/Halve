@@ -1,5 +1,5 @@
 ---
-title: DEFCON CTF 26 Quals
+title: DEFCON 26 Quals
 description: DEFCON CTF 26 Quals Challenges writeup
 categories:
  - writeup
