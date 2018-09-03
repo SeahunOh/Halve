@@ -1,6 +1,6 @@
 ---
 title: DEFCON 26 Final 및 라스베가스 후기 
-description: DEFCON 26 Fianl 대회 참가를 위한(?) 라스베가스 여행 후기
+description: DEFCON 26 Final 대회 참가를 위한(?) 라스베가스 여행 후기
 categories:
  - travel
 tags:
