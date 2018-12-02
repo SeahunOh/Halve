@@ -170,17 +170,17 @@ If you request kou.so with f parameter, you will see that you are giving the kou
 
 Open it !
 
-![](./kou1.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/kou1.png)
 
 **loadFile** function just open file using fopen function.
 
 Next, I see the **login** function.
 
-![](./kou2.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/kou2.png)
 
 It is verfying to input value(id, pw) using loginchk function.
 
-![](./kou3.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/kou3.png)
 
 **loginchk** function is compare id and pw to "kou" and "1e0c6abede7ff7184c3cefe606f9760a".
 
