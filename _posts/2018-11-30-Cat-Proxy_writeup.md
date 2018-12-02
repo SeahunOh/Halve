@@ -329,7 +329,7 @@ class Requests{
 file_exists("phar://phar.phar");
 ```
 
-![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/cat_proxy1.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/assets/images/cat_proxy1.png)
 
 Successfully read!!!
 
@@ -409,7 +409,7 @@ $phar->setMetadata($obj);
 
 The hex value of generated test.tar is as follows.
 
-![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/cat_proxy2.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/assets/images/cat_proxy2.png)
 
 The first part contains the data you put through `$phar["AAABshpik"] = "FLAGFLAGFLAG";`.
 
@@ -453,7 +453,7 @@ But there is urldecode funtion in file_exists function, we uploaded "phar%3a%2f%
 
 **filename :** phar%3a%2f%2fshpik_etcpasswd.jpg
 
-![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/cat_proxy3.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/assets/images/cat_proxy3.png)
 
 You have successfully read /etc/passwd.
 
@@ -573,7 +573,7 @@ You can see that there are flag and user in cat.
 
 Now you can create a phar file that executes "select * from cat.flag" and upload it to the server to get the flag.
 
-![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/_posts/cat_proxy4.png)
+![](https://raw.githubusercontent.com/SeahunOh/seahunoh.github.io/master/assets/images/cat_proxy4.png)
 
 
 
