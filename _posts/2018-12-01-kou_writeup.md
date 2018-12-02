@@ -3,7 +3,7 @@ layout: post
 title: "TenDollar CTF - kou writeup"
 comments: true
 description: "My Problem 'kou' writeup at TenDollar CTF 3rd."
-keywords: "my_prob, web, pwn, lfi, overflow
+keywords: "my_prob, web, pwn, lfi, overflow"
 ---
 
 ## Information
