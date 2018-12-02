@@ -1,25 +1,10 @@
 ---
-title: DEFCON 26 Quals
-description: DEFCON CTF 26 Quals Challenges writeup
-categories:
- - writeup
-tags:
- - web
- - php
- - pwn
- - sqli
- - json
- - eval
- - overflow
+layout: post
+title: "DEFCON 26 Quals Writeup"
+comments: true
+description: "DEFCON CTF 26 Quals Challenges writeup"
+keywords: "web, php, pwn, sqli, json, eval, overflow"
 ---
-
-> DEFCON CTF 26 Quals.
->
-> You Already Know(warming up), PHP Eval White-List(web+rev), exzendtential-crisis(web+pwn) writeup
->
-> written by korean. @C.G.K.S (Rank 15)
-
-<!-- more --> 
 
 ## Introduce
 

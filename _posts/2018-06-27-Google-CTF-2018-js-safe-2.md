@@ -1,16 +1,10 @@
 ---
-title: GoogleCTF 2018 Quals - js safe 2.0
-description: Google CTF에서 출제된 javascript anti debugging 문제에 대한 풀이
-categories:
- - writeup
-tags:
- - web
- - javascript
- - js
- - anti debugging
+layout: post
+title: "GoogleCTF 2018 Quals - js safe 2.0"
+comments: true
+description: "Google CTF에서 출제된 javascript anti debugging 문제에 대한 풀이"
+keywords: "web, javascript, js, anti debugging"
 ---
-
-<!-- more --> 
 
 ## Introduce
 

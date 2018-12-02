@@ -1,14 +1,10 @@
 ---
-title: DEFCON 26 Final 및 라스베가스 후기 
-description: DEFCON 26 Final 대회 참가를 위한(?) 라스베가스 여행 후기
-categories:
- - travel
-tags:
- - defcon
- - lasvegas
+layout: post
+title: "DEFCON 26 Final 및 라스베가스 후기"
+comments: true
+description: "DEFCON 26 Final 대회 참가를 위한(?) 라스베가스 여행 후기"
+keywords: "defcon, final, dc26, defcon26, lasvegas"
 ---
-
-<!-- more --> 
 
 ## Introduce
 

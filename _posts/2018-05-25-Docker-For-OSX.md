@@ -1,19 +1,14 @@
 ---
-title: Docker For OSX
-description: how to setting docker in osx
-categories:
- - docker
-tags:
- - docker
- - usage
- - osx
+layout: post
+title: "Docker For OSX"
+comments: true
+description: "how to setting docker in osx"
+keywords: "docker, usage, osx"
 ---
 
-> OSX 사용자를 위한 Docker 설치부터 접근 방법
->
-> 이 게시글은 지속적으로 업데이트 예정
+## Introduce
 
-<!-- more --> 
+- 이 포스팅은 지속적으로 업데이트 됩니다.
 
 ## Install
 

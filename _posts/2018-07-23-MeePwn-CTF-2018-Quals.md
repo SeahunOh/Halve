@@ -1,17 +1,10 @@
 ---
-title: MeePwn CTF 2018 Quals
-description: MeePwn CTF 2018 Quals Challenge writeup
-categories:
- - writeup
-tags:
- - web
- - crypt
- - python3.6
- - rsa
- - aes
+layout: post
+title: "MeePwn CTF 2018 Quals Writeup"
+comments: true
+description: "MeePwn CTF 2018 Quals Challenge writeup"
+keywords: "web, crypt, python3.6, rsa, aes"
 ---
-
-<!-- more --> 
 
 ## Introduce
 
