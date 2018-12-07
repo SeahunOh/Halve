@@ -525,13 +525,13 @@ FLAG : MeePwnCTF\{pooDL3-this-is-la-vie-en-rose-P00dle\!\}
 
 소스코드의 맨 아래를 보면 다음과 같은 주석이 존재한다.
 
-```html
+```php
 <!-- Infact, ?debug will help you learn expression to build Grand Line ( Ex: !<>+-*/ )
 ```
 
 `?debug` 를 추가해주면 소스를 얻을 수 있다.
 
-```html
+```php
 <!-- 
 /* * *  Power By 0xd0ff9 * * * 
 --> 
@@ -626,7 +626,7 @@ echo "<!-- P/s: Your grand line is ".htmlentities(urldecode($grandline),ENT_QUOT
 
 하지만 <,>를 사용할 수 없으므로 다른 방법을 생각해봤으며, 재밌는 부분을 발견하였다.
 
-```html
+```tml
 <!-- 
 /* * *  Power By 0xd0ff9 * * * 
 --> 
@@ -640,7 +640,7 @@ url에 \*/ ~~~ /\* 을 통해 javascript 코드를 만들 수 있다.
 
 하지만 그러기 위해서는 이를 javascript로써 로드를 해야하는데, 그것을 위해서 RPO를 이용하였다.
 
-```html
+```php
 <script src="js/jquery.min.js"></script> 
 ```
 

@@ -51,7 +51,7 @@ Leak index.php.
 
 `http://web2.tendollar.kr:10101/?p=view&f=../../var/www/html/index.php`
 
-```html
+```php
 <!-- index.php -->
 <!DOCTYPE html>
 <html>
@@ -86,7 +86,7 @@ Leak index.php.
 
 Let's take a look at loginchk which seems to be important the pageList.
 
-```html
+```php
 <!-- loginchk.php -->
 <?php
 	$id = $_POST['id'];
@@ -114,7 +114,7 @@ But, **login** function that verify id and password is not built-ins function.
 
 Maybe, It is called by another modules.
 
-```html
+```php
 <!-- view.php -->
 <?php
 	$f = $_GET['f'];

@@ -413,7 +413,7 @@ The hex value of generated test.tar is as follows.
 
 The first part contains the data you put through `$phar["AAABshpik"] = "FLAGFLAGFLAG";`.
 
-Now, in "AAABshpik", you should change AAA to "\ xFF \ xD8 \ xFF", which is the first part of the header that is checked when you upload jpg.
+Now, in "AAABshpik", you should change AAA to "\xFF\xD8\xFF", which is the first part of the header that is checked when you upload jpg.
 
 Next, you should change the checksum.
 
