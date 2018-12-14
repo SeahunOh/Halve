@@ -48,4 +48,3 @@ type: resume
 - 2016, Codegate CTF University Final 11위 (init)
 
 [[ More ]](https://github.com/SeahunOh/ctf/blob/master/README.md)
-
