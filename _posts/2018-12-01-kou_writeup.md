@@ -197,6 +197,7 @@ It copy input value to _id and _pw using strcpy.
 
 ```c
 char _pw[32]; // [rsp+20h] [rbp-68h]
+
 char _id[33]; // [rsp+40h] [rbp-48h]
 ```
 
