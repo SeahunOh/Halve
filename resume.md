@@ -8,11 +8,16 @@ permalink: /resume/
 
 - shpik @Republic of Korea
 - Security Researcher @Cyberone PT Team 
-   - 2017.01 ~ Now
-- Computer Science Engineering @Inha Universary
+   - 2017.01 ~ Present
+- Computer Science Engineering @Inha Univ. in Incheon, South Korea
    - 2010.03 ~ 2017.02
 - Web/Pwnable @TenDollar
 - DEFCON 26 Finalist
+- Interests 
+   - Chrome Exploitation
+   - SSRF
+   - Bug Hunting
+   - Space Science (?)
 
 ## Vulnerability
 
@@ -21,9 +26,11 @@ permalink: /resume/
 
 ## Achievement
 
+- 2019, Codegate CTF Quals 23위 (TenDollar)
+- 2019, InterKosen CTF 3위 (KimchiPower)
 - 2018, Pwn2Win CTF 13위 (TenDollar)
 - 2018, TenDollar CTF 3rd - **Operator**
-- 2018, 사이버공격방어대회(CCE) Fianl 9위 (TenDollar)
+- 2018, 사이버공격방어대회(CCE) Final 9위 (TenDollar)
 - 2018, SECCON CTF Quals 19위 (TenDollar)
 - 2018, BSides Delhi CTF 21위 (TenDollar)
 - 2018, 사이버공격방어대회(CCE) Quals 7위 (TenDollar)
