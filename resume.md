@@ -21,8 +21,15 @@ permalink: /resume/
 
 ## Vulnerability
 
-- CVE-2018-13410
-- CVE-2018-19296
+- CVE-2018-13410 : Info-zip, Off-by-one
+- CVE-2018-19296 : PHPMailer, Object Injection
+- KVE-2017-0019 : Netis M3300N, Command Injection
+- KVE-2017-0278 : gnuboard5, LFI to RCE
+- KVE-2019-0246 : Naver, XXXXX
+- KVE-2019-0247 : Naver, XXXXX
+- KVE-2019-0523 : Naver, XXXXX
+- KVE-2019-0556 : gnuboard5, XXXXX
+- KVE-2019-???? : Naver, XXXXX
 
 ## Achievement
 
