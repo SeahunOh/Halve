@@ -7,11 +7,11 @@ permalink: /resume/
 ## whoami
 
 - shpik @Republic of Korea
-- Security Researcher @Cyberone PT Team 
-   - 2017.01 ~ Present
+- Security Researcher @Cyberone Inc. R&D
+   - 2017.01 ~ 2019.04
 - Computer Science Engineering @Inha Univ. in Incheon, South Korea
    - 2010.03 ~ 2017.02
-- Web/Pwnable @TenDollar
+- Web/Pwnable @TenDollar @Mashiro
 - DEFCON 26 Finalist
 - Interests 
    - Chrome Exploitation
@@ -30,9 +30,12 @@ permalink: /resume/
 - KVE-2019-0523 : Naver, XXXXX
 - KVE-2019-0556 : gnuboard5, XXXXX
 - KVE-2019-???? : Naver, XXXXX
+- and so on 
 
 ## Achievement
 
+- 2019, Midnight Sun CTF Quals 23위 (Harekaze)
+- 2019, UTCTF 23위 (Mashiro)
 - 2019, Codegate CTF Quals 23위 (TenDollar)
 - 2019, InterKosen CTF 3위 (KimchiPower)
 - 2018, Pwn2Win CTF 13위 (TenDollar)
