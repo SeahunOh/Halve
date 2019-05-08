@@ -109,3 +109,9 @@ $ docker rm wl # remove docker
       - Container에 shell로 접근시에 attach보다는 주로 이것을 많이 사용
 - docker restart *[container name or id]*
    - 서비즈 중인 Conatiner **재시작**
+
+## Trouble Shooting
+
+- Linux ptrace error
+   - docker run 옵션에 아래를 추가
+      - --cap-add=SYS_PTRACE --security-opt seccomp=unconfined
