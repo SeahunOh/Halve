@@ -46,7 +46,4 @@ I'm in *Republic of Korea*{:.start_color}.
 </style>
 
 
-{:.image_size_200}
-![Profile]({{site.url}}/assets/img/profile.png)
-
 Recently seen Re：ゼロから始める異世界生活
