@@ -1,47 +1,33 @@
-# Site settings
-title_left    : "shpik's "
-title_right   : "world" # default: ""
-description   : "Smile, Sweet, Sister, Sadistic, Surprise, Service"
-keywords      : "shpik, writeup, web, pwn, rev, crypto, forensics"
-url           : https://seahunoh.github.io/blog # site url
-baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+# Blog settings
+permalink: /:year/:title/
 
-google_analytics  : UA-121550305-1
-twitter_username  : "__Sehun_Oh__"
-comments_enabled  : true # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : "shpik"
-postshare_enabled : false
+url: http://seahunoh.github.io/blog
 
-# Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
 
-source      : ./
-destination : ./_site
+# My variables
+name: shpik
+description: E.M.T
+google_verification: null
 
-# Sass configuration
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
 sass:
-  sass_dir  : assets/scss
-  style     : compressed # expanded
+  style: :compressed
+  sass_dir: _sass
 
-# Author settings
-author:
-  name     : "shpik"
 
-plugins:
-  - jekyll-sitemap
-  - bourbon
-  - jekyll-paginate
+# Markdown
+markdown: kramdown
+kramdown:
+  # input: GFM
+  hard_wrap: false
+highlighter: rouge
 
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-  - slug : resume
-    title: Resume
+gems:
+    - jekyll-feed
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
