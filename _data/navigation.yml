@@ -1,8 +1,8 @@
-- title: projects
-  url: /projects
+- title: resume
+  url: https://shpik.kr
 
-- title: notes
-  url: /notes
+- title: daily
+  url: /daily
 
 - title: about
   url: /me
