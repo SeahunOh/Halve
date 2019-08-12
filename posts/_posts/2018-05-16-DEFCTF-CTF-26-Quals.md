@@ -3,7 +3,7 @@ layout: post
 title: "DEFCON 26 Quals Writeup"
 comments: true
 description: "DEFCON CTF 26 Quals Challenges writeup"
-keywords: "web, php, pwn, sqli, json, eval, overflow"
+categories: "web, php, pwn, sqli, json, eval, overflow"
 ---
 
 ## Introduce

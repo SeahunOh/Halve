@@ -3,7 +3,7 @@ layout: post
 title: "PHP Open_basedir bypass"
 comments: true
 description: "PHP Open_basedir bypass."
-keywords: PHP, bypass, open_basedir
+categories: PHP, bypass, open_basedir
 
 ---
 

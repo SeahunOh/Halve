@@ -3,7 +3,7 @@ layout: post
 title: "TenDollar CTF - Cat Proxy writeup"
 comments: true
 description: "My Problem 'Cat Proxy' writeup at TenDollar CTF 3rd."
-keywords: "my_prob, web, lfi, unserialize, ssrf, mysql"
+categories: "my_prob, web, lfi, unserialize, ssrf, mysql"
 ---
 
 ## Information

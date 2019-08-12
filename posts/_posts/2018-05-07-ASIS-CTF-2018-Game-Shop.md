@@ -3,7 +3,7 @@ layout: post
 title: "ASIS CTF 2018 - Game-Shop"
 comments: true
 description: "ASIS CTF 2018 Web Challenge"
-keywords: "web, php, unserialize, object injection, oracle padding"
+categories: "web, php, unserialize, object injection, oracle padding"
 ---
 
 ## Description

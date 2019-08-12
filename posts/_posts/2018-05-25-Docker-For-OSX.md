@@ -3,7 +3,7 @@ layout: post
 title: "Docker For OSX"
 comments: true
 description: "how to setting docker in osx"
-keywords: "docker, usage, osx"
+categories: "docker, usage, osx"
 ---
 
 ## Introduce

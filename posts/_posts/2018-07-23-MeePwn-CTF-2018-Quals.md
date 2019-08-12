@@ -3,7 +3,7 @@ layout: post
 title: "MeePwn CTF 2018 Quals Writeup"
 comments: true
 description: "MeePwn CTF 2018 Quals Challenge writeup"
-keywords: "web, crypt, python3.6, rsa, aes"
+categories: "web, crypt, python3.6, rsa, aes"
 ---
 
 ## Introduce

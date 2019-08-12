@@ -3,7 +3,7 @@ layout: post
 title: "Issue Certificate at Let's Encrypt"
 comments: true
 description: "Issue Certificate at Let's Encrypt"
-keywords: SSL, HTTPS, Setting, Certificate
+categories: SSL, HTTPS, Setting, Certificate
 
 ---
 
