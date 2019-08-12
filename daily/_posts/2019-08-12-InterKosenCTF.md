@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Participate to InterKosenCTF"
-date: 2017-05-12 22:07
+date: 2019-08-12 15:00
 comments: true
 categories: CTF 
 ---
