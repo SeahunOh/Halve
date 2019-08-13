@@ -18,11 +18,11 @@ Hello, I'm shpik.
 
 </style>
 
-*Interests*{:.start_color}, nowdays i interests in v8 exploit.
+*Interests*{:.start_color} in v8, web exploitation.
 
 I'm in *Republic of Korea*{:.start_color}.
 
-*Like*{:.start_color}, Anime, Games(PS4, NS)
+*Like*{:.start_color} Anime, Games(PS4, NS)
 
 <br/>
 
@@ -46,4 +46,8 @@ I'm in *Republic of Korea*{:.start_color}.
 </style>
 
 
-Recently seen Re：ゼロから始める異世界生活
+Recently seen Anime 「 Re：ゼロから始める異世界生活 」
+
+Recently played Game 「 Monster Hunter World 」
+
+If you contact me, please <a href="https://twitter.com/__Sehun_Oh__">DM</a> at twitter.
