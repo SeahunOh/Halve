@@ -834,7 +834,7 @@ We can use `quote`, So i try to bypass as follows:
 
 **Query** : username=admin'%26&password='
 
-Then, query is return true :)
+Then, query return true :)
 
 ```
 SELECT username from users where username='admin'&' and password='''
