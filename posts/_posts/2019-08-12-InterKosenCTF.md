@@ -4,7 +4,6 @@ title: "InterKosenCTF writeup"
 date: 2019-08-12 15:00
 comments: true
 categories: CTF 
-
 ---
 
 1st placed at Mashiro(@Emilia)
