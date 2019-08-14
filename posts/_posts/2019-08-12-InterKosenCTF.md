@@ -267,7 +267,7 @@ while 1:
 	output = dict()
 	print encflag
 	for i in charset:
-		fake = 'KosenCTF{%s}'%((flag+i).ljust(38,'0'))
+		fake = 'KosenCTF{'+((flag+i).ljust(38,'0'))+'}'
 		kk = go(fake)
 		c = lcs(encflag,kk)
 		if c not in output.keys():
