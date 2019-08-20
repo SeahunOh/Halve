@@ -46,8 +46,8 @@ I'm in *Republic of Korea*{:.start_color}.
 </style>
 
 
-Recently seen Anime 「 Re：ゼロから始める異世界生活 」
+Recently seen Anime 「Re：ゼロから始める異世界生活」
 
-Recently played Game 「 Monster Hunter World 」
+Recently played Game 「ファイアーエムブレム 風花雪月」
 
 If you contact me, please <a href="https://twitter.com/__Sehun_Oh__">DM</a> at twitter.
