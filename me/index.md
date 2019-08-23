@@ -20,7 +20,7 @@ Hello, I'm shpik.
 
 *Interests*{:.start_color} in v8, web exploitation.
 
-I'm in *Republic of Korea*{:.start_color}.
+I'm in *Shinjuku, Japan*{:.start_color}.
 
 *Like*{:.start_color} Anime, Games(PS4, NS)
 
