@@ -154,13 +154,13 @@ blockquote {
 		h3 {
 			font-size: 1.2em;
 			font-weight: 700;
-			margin-top: 25px;
+			margin-top: 20px;
 			margin-bottom: 7px;
 		}
 		h4 {
 			font-size: 1.1em;
 			font-weight: 700;
-			margin-top: 25px;
+			margin-top: 20px;
 			margin-bottom: 7px;
 		}
 		p {
@@ -223,7 +223,6 @@ blockquote {
 			background: $color-grey;
 			word-break: keep-all;
 			word-wrap: break-word;
-
 		}
 		.highlight {
 			margin: 10px;
@@ -235,6 +234,8 @@ blockquote {
 			code {
 				// color: $color-code;
 				background: none;
+				word-break: keep-all;
+				word-wrap: break-word;
 			}
 		}
 		.codebreak {
