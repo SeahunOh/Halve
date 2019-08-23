@@ -221,6 +221,9 @@ blockquote {
 			font-size: 0.9em;
 			border-radius: 3px;
 			background: $color-grey;
+			word-break: keep-all;
+			word-wrap: break-word;
+
 		}
 		.highlight {
 			margin: 10px;
